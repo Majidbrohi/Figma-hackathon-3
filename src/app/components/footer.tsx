@@ -12,7 +12,7 @@ export default function Footer() {
               <span className="text-2xl font-semibold">Comforty</span>
             </div>
             <p className="mt-4 text-sm text-gray-600">
-              Vivamus tristique odio sit amet velit semper,
+              Vivamus tristique odi sit amet velit semper,
               <br />
               eu posuere turpis interdum. <br />
               Cras egestas purus.
