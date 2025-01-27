@@ -15,7 +15,7 @@ export default function Footer() {
               Vivamus tristique odi sit amet velit semper,
               <br />
               eu posuere turpis interdum. <br />
-              Cras egestas purus.
+              Cras egetas purs.
             </p>
             <div className="flex gap-4">
               <Image src={"/img/flogo.png"} width={38} height={38} alt="Facebook" />
