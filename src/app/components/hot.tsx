@@ -1,4 +1,4 @@
-"use client";
+ "use client";
 
 import { useEffect, useState } from "react";
 import { client } from "@/sanity/lib/client";
@@ -20,10 +20,14 @@ export default function HotCategory() {
       useEffect(() => {
         const fetchData = async () => {
           try {
-            const result = await client.fetch(`*[_id in ["9sdhlauaGukhCl9Bj1Yckt","9sdhlauaGukhCl9Bj1YjHX", "PHYRau07g0l5Y4L0Wy5KGr", "PHYRau07g0l5Y4L0Wy5OJM"]]{
+            const result = await client.fetch(`*[_type == 'products']{
+              title,
+              price,
+              inventory,
+              _id,
               "imageUrl": image.asset->url,
-              }
-`);
+              description,
+            }`);
             setData(result); // Store the fetched data in state
           } catch (error) {
             console.error("Error fetching data:", error);

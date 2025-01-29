@@ -6,9 +6,9 @@ import { createClient } from "@sanity/client";
 
 // Load required environment variables
 const {
-  NEXT_PUBLIC_SANITY_PROJECT_ID="chsu6qtg",
+  NEXT_PUBLIC_SANITY_PROJECT_ID="23l24970",
   NEXT_PUBLIC_SANITY_DATASET="production",
-  NEXT_PUBLIC_SANITY_AUTH_TOKEN="sksCaxYDMkZXIs3rKBX2aQak4ecnS87Q5hc5q7C7WaYhSetcnENNmP5CAPIhoIrAi7E7SNUTKcfvNUJvl9P3U2yjyEAL4lqtTmi9rKfzDPBsI76iGlUsfP8ajsINszEyEFheEKAiio9vSvwP5haUokOq6DnVrrr58oVf4GO83xEOgzrZLHGE", // Sanity API token
+  NEXT_PUBLIC_SANITY_AUTH_TOKEN="skTkheXywDcTNy61k38jZLC1F34eXmUSx5Lmw2yhlwowLHu6nPjhk3CfJVUkwdLa5T2fzocAvXmQbkaz9d2sYYwAEc6kUrj4nYmtSTNBNl25Te4eEU7NhCaRV6piBUzAKxDHKuyHonhZGxdJrrVcpBkFn6VYqi7CuuxqhGqUfnsMqCAtI8SK",
   BASE_URL = "https://giaic-hackathon-template-08.vercel.app", // API base URL for products and categories
 } = process.env;
 
