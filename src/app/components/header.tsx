@@ -12,15 +12,15 @@ export default function Header() {
             </div>
             <div className="self-stretch text[20px] lx:text-[60px] sm:text-[40px] font-bold capitalize leading-[1.1] tracking-[0px]">
               <span>
-                <p>Best Furniture</p>
-                <p>Collection for your</p>
-                <p>interior.</p>
+                <p>Best  Furniture</p>
+                <p>Collection  for your</p>
+                <p>interior</p>
               </span>
             </div>
             <div className="flex items-end pt-6">
               <div className="flex items-center justify-center gap-x-5 rounded-lg bg-[cadetblue] px-6 py-3.5">
                 <div className="font-semibold capitalize leading-[1.1] tracking-[0px] text-white text-[10px] sm:text-[15px] xl:text-[20px]">
-                  Shop Now
+                  Shop  Now
                 </div>
                 <svg
                   className="h-6 w-6 flex-shrink-0"
